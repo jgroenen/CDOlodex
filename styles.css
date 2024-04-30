@@ -5,6 +5,11 @@ body, html {
     background-color: #f4f4f4;
     color: #333;
     line-height: 1.4em;
+    font-size: 16px;
+}
+
+body {
+    padding: 0.5em 0;
 }
 
 .container {
@@ -12,6 +17,7 @@ body, html {
     max-width: 600px;
     margin: auto;
     border-radius: 8px;
+    padding-top: 4px;
 }
 
 header {
@@ -19,7 +25,7 @@ header {
 }
 
 header h1 {
-    margin: 0.5em;
+    margin: 1.5em 0.5em;
     color: #333;
 }
 
@@ -69,7 +75,7 @@ header h1 {
     color: #333;
 }
 
-.gebied {
+.card {
     border-radius: 4px;
     padding: 20px;
     margin-top: 20px;
@@ -96,7 +102,7 @@ header h1 {
     text-decoration: none;
     border-radius: 5px;
     font-size: 16px;
-    margin-top: 20px;
+    margin: 20px auto;
 }
 
 .button:hover {
